@@ -1,0 +1,32 @@
+                      OLS Regression Results                      
+Dep. Variable:   ,ln_total_spent  ,  R-squared:         ,   0.326 
+Model:           ,OLS             ,  Adj. R-squared:    ,   0.323 
+Method:          ,Least Squares   ,  F-statistic:       ,   129.7 
+Date:            ,Sun, 18 Oct 2020,  Prob (F-statistic):,1.36e-286
+Time:            ,20:59:52        ,  Log-Likelihood:    , -2388.9 
+No. Observations:,  3500          ,  AIC:               ,   4806. 
+Df Residuals:    ,  3486          ,  BIC:               ,   4892. 
+Df Model:        ,    13          ,                     ,         
+Covariance Type: ,nonrobust       ,                     ,         
+          ,   coef   , std err ,    t    ,P>|t| ,  [0.025 ,  0.975] 
+Intercept ,    5.8706,    0.113,   51.858, 0.000,    5.649,    6.093
+lninc     ,    0.2665,    0.027,   10.056, 0.000,    0.215,    0.319
+lncreddebt,    0.0317,    0.013,    2.514, 0.012,    0.007,    0.056
+debtinc   ,   -0.0060,    0.003,   -2.068, 0.039,   -0.012,   -0.000
+othdebt   ,    0.0130,    0.006,    2.311, 0.021,    0.002,    0.024
+age       ,   -0.0018,    0.000,   -3.821, 0.000,   -0.003,   -0.001
+card_3    ,   -0.5760,    0.026,  -21.925, 0.000,   -0.628,   -0.525
+card_4    ,   -0.6341,    0.027,  -23.759, 0.000,   -0.686,   -0.582
+card_2    ,   -0.5757,    0.026,  -22.142, 0.000,   -0.627,   -0.525
+card2_2   ,   -0.3087,    0.024,  -12.802, 0.000,   -0.356,   -0.261
+card2_3   ,   -0.3007,    0.024,  -12.519, 0.000,   -0.348,   -0.254
+gender_1  ,   -0.0461,    0.016,   -2.827, 0.005,   -0.078,   -0.014
+card_5    ,   -0.4666,    0.044,  -10.554, 0.000,   -0.553,   -0.380
+card2_4   ,   -0.3324,    0.026,  -12.754, 0.000,   -0.383,   -0.281
+Omnibus:      ,58.179,  Durbin-Watson:     ,   1.966
+Prob(Omnibus):, 0.000,  Jarque-Bera (JB):  ,  39.784
+Skew:         ,-0.141,  Prob(JB):          ,2.30e-09
+Kurtosis:     , 2.561,  Cond. No.          ,    734.
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
